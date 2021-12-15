@@ -25,6 +25,8 @@ basic.forever(function () {
     basic.pause(100)
     basic.showIcon(IconNames.SmallHeart)
     basic.pause(100)
+})
+basic.forever(function () {
     点滅間隔 = randint(100, 1000)
     pins.digitalWritePin(DigitalPin.P0, 1)
     basic.pause(点滅間隔)
